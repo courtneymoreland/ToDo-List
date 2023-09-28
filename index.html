@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Courtney James"> 
+    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet -->
+    <title>My To-Do List</title> 
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>My To-Do List</h2> <!-- Header with the title of the to-do list -->
+        </div>
+
+        <div class="input-container">
+            <input type="text" id="myInput" placeholder="Title..."> <!-- Input field for adding new tasks -->
+            <button onclick="newElement()">Add</button> <!-- Button to add a new task -->
+        </div>
+
+        <ul class="tasks" id="myUL">
+            <!-- To-Do List Items -->
+            <li class="task">
+                <span class="task-text" onclick="toggleTask(this)">Task 1</span>
+                <span onclick="deleteTask(this)">❌</span>
+            </li>
+            <li class="task">
+                <span class="task-text completed" onclick="toggleTask(this)">Task 2</span>
+                <span onclick="deleteTask(this)">❌</span>
+            </li>
+            <li class="task">
+                <span class="task-text" onclick="toggleTask(this)">Task 3</span>
+                <span onclick="deleteTask(this)">❌</span>
+            </li>
+            <li class="task">
+                <span class="task-text" onclick="toggleTask(this)">Task 4</span>
+                <span onclick="deleteTask(this)">❌</span>
+            </li>
+            <li class="task">
+                <span class="task-text" onclick="toggleTask(this)">Task 5</span>
+                <span onclick="deleteTask(this)">❌</span>
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+
+</html>
