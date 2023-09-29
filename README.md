@@ -3,7 +3,7 @@ In this project, I created a simple web-based to-do list application using JavaS
 
 The primary purpose of developing this software is to explore and practice JavaScript, focusing on its language syntax, event handling, and DOM manipulation. By creating a functional to-do list, I aimed to apply the fundamentals of JavaScript in a real-world context.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/dZn5lcd08Tg)
 
 # Development Environment
 
